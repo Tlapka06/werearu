@@ -1,4 +1,5 @@
 all: src/werearu.c src/werearud.c
+	mkdir bin
 	gcc src/werearu.c -o bin/werearu
 	gcc src/werearud.c -o bin/werearud
 
