@@ -1,3 +1,6 @@
+// werearu
+// Copyright © 2022 Jakub Janík
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>

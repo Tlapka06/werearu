@@ -1,3 +1,6 @@
+// werearu
+// Copyright © 2022 Jakub Janík
+
 #include "werearu.h"
 
 char buffer[BUFFER_LENGTH];

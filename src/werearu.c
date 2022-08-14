@@ -1,3 +1,6 @@
+// werearu
+// Copyright 2022 Jakub Janík
+
 #include "werearu.h"
 #include <time.h>
 #define TIMEOUT 3000
@@ -20,7 +23,8 @@ int main(int argc, char *argv[]) {
 	
 	// help
 	if (argc != 2) {
-		fprintf(stderr, "werearu - program for address sharing\nusage: werearu hostname\n");
+		fprintf(stderr, "werearu - program for address 
+discovery\nusage: werearu hostname\n");
 		exit(0);
 	}
 	
