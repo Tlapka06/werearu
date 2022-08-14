@@ -1,0 +1,9 @@
+Package: werearu
+Version: 0.2
+Section: custom
+Priority: optional
+Architecture: arm64
+Essential: no
+Installed-Size: 0
+Maintainer: mail.me@anidor.org
+Description: Where are you client and server for ip discovery

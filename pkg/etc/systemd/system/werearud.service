@@ -1,0 +1,8 @@
+[Unit]
+Description=Where are you server
+
+[Service]
+ExecStart=/usr/bin/werearud
+
+[Install]
+WantedBy=multi-user.target

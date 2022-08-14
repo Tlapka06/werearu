@@ -1,0 +1,14 @@
+#!/bin/bash
+
+while true
+do
+	read -p "Do you want to enable Where are you server? (y/n) " input
+	
+	case $input in 
+		[yY] ) systemctl enable werearud
+			systemctl start werearud
+			break;;
+		[nN] ) break;;
+		* ) echo Type y or n;;
+	esac
+done
