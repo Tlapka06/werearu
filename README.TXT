@@ -8,10 +8,10 @@ Usage
 > werearu hostname
 hostname has ip 0.0.0.0
 >
-
 Server
 ------
-Server is installed under systemd as werearud
+Server is installed under systemd as werearud (under Debian only)
 enable:
 > sudo systemctl enable werearud
 > sudo systemctl start werearud
+>
